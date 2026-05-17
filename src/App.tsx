@@ -347,7 +347,7 @@ function Footer() {
   return (
     <footer className="bg-forest-light text-cream-dark pt-16 pb-8 border-t border-gold/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           
           <div className="col-span-1 lg:col-span-1">
             <div className="flex flex-col mb-4">
@@ -370,21 +370,9 @@ function Footer() {
           </div>
 
           <div>
-            <h4 className="font-playfair text-gold font-bold mb-6 text-lg">Hair Care</h4>
-            <ul className="space-y-3 font-cormorant text-lg">
-              <li><a href="#" className="text-cream/70 hover:text-gold transition-colors">Hair Fall Treatment</a></li>
-              <li><a href="#" className="text-cream/70 hover:text-gold transition-colors">Dandruff Control</a></li>
-              <li><a href="#" className="text-cream/70 hover:text-gold transition-colors">Scalp Massage Guide</a></li>
-              <li><a href="#" className="text-cream/70 hover:text-gold transition-colors">Ayurvedic Routine</a></li>
-            </ul>
-          </div>
-
-          <div>
             <h4 className="font-playfair text-gold font-bold mb-6 text-lg">Contact Us</h4>
             <ul className="space-y-3 font-cormorant text-lg">
               <li className="text-cream/70">Phone: <a href="tel:+919182494143" className="hover:text-gold transition-colors">+91 91824 94143</a></li>
-              <li className="text-cream/70">Email: <a href="mailto:hello@rahis.com" className="hover:text-gold transition-colors">hello@rahis.com</a></li>
-              <li className="text-cream/70 mt-4 italic">Available Mon-Sat: 9am - 6pm (IST)</li>
             </ul>
           </div>
 
