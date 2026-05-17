@@ -86,7 +86,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-forest to-forest-light overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-forest to-forest-light overflow-hidden pt-24 pb-24 md:pb-32">
       {/* Subtle Leaf Pattern Overlay (conceptual via CSS radial gradients) */}
       <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 20% 30%, var(--color-leaf) 0%, transparent 40%), radial-gradient(circle at 80% 70%, var(--color-gold) 0%, transparent 40%)' }}></div>
       
@@ -127,9 +127,10 @@ function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
+              className="mt-8 mb-4 md:mb-0"
             >
-              <a href="#benefits" className="inline-flex items-center justify-center px-8 py-4 bg-gold text-forest hover:bg-gold-light transition-colors duration-300 font-cormorant font-bold uppercase tracking-wider text-sm rounded-sm">
-                Explore Benefits <span className="ml-2 text-xl">→</span>
+              <a href="#benefits" className="inline-flex items-center justify-center px-[32px] py-[14px] bg-gold text-forest hover:bg-gold-light transition-colors duration-300 font-cormorant font-bold uppercase tracking-wider text-[14px] rounded-sm">
+                Explore Benefits <span className="ml-2 text-lg">→</span>
               </a>
             </motion.div>
           </div>
@@ -171,7 +172,7 @@ function OurStory() {
                   src="/about.jpg" 
                   alt="Ayurvedic Herbs Preparation" 
                   referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
             </div>
             {/* Decorative background element */}
