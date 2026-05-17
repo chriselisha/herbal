@@ -33,9 +33,15 @@ function Navbar() {
     <nav className="fixed w-full z-50 bg-forest/90 backdrop-blur-md border-b border-gold/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex-shrink-0 flex flex-col justify-center">
-            <span className="font-playfair text-gold text-2xl font-bold tracking-wide">Rahi's</span>
-            <span className="font-cormorant text-cream-dark text-xs tracking-[0.2em] uppercase">Herbal Products</span>
+          <div className="flex-shrink-0 flex items-center gap-3">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" fill="#c8a44e" fillOpacity="0.2" stroke="#c8a44e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" stroke="#c8a44e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <div className="flex flex-col justify-center">
+              <span className="font-playfair text-gold text-2xl font-bold tracking-wide">Rahi</span>
+              <span className="font-cormorant text-cream-dark text-xs tracking-[0.2em] uppercase">Herbal Oil</span>
+            </div>
           </div>
           
           <div className="hidden md:flex space-x-8">
