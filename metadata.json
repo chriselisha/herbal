@@ -1,0 +1,8 @@
+{
+  "name": "Rahi\u0027s Herbal Hair Oil",
+  "description": "A premium product website for Rahi\u0027s Herbal Hair Oil, featuring a luxurious Ayurvedic design with forest green and gold aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
