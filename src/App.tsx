@@ -144,7 +144,7 @@ function Hero() {
             <div className="relative w-full max-w-[380px] aspect-[4/5] rounded-[2rem] border border-gold/30 p-2 shadow-2xl shadow-gold/20">
               <div className="w-full h-full rounded-[1.5rem] bg-forest-light overflow-hidden relative flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1608248593842-80e980cc8e3f?auto=format&fit=crop&q=80&w=800" 
+                  src="/hero.jpg" 
                   alt="Rahi's Herbal Hair Oil Bottle with Ingredients" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -168,7 +168,7 @@ function OurStory() {
           <FadeUp className="order-2 md:order-1 relative">
             <div className="aspect-square md:aspect-[3/4] max-w-[450px] bg-cream-dark mx-auto md:mr-auto rounded-none border-[12px] border-white shadow-2xl relative z-10 overflow-hidden flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800" 
+                  src="/about.jpg" 
                   alt="Ayurvedic Herbs Preparation" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
