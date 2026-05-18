@@ -397,16 +397,6 @@ function Footer() {
 }
 
 export default function App() {
-  return (
-    <div className="min-h-screen bg-cream font-lora selection:bg-gold/30">
-      <Navbar />
-      <Hero />
-      <OurStory />
-      <Benefits />
-      <Ingredients />
-      <HowToUse />
-      <Footer />
-    </div>
-  );
+  return null;
 }
 
